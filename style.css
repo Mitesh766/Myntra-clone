@@ -1,0 +1,158 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #fff;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.073);
+
+}
+
+.M-icon{
+    font-family:cursive;
+    color: rgb(253, 98, 124);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.categories span{
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000d5;
+    text-transform: uppercase;
+}
+sup{
+    font-size: 10px;
+    color: rgb(255, 103, 128);
+    font-weight: bolder;
+
+}
+
+.search-bar{
+    background-color: #F5F5F6;
+    padding: 10px;
+    width:400px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.search-bar span {
+ padding: 15px;
+ color: #969697;
+}
+
+.general {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.general span{
+    text-align: center;
+}
+
+footer{
+    margin-top: 90px;
+    padding: 20px 40px;
+    display: grid;
+    grid-template-columns: 8fr 4fr ;
+}
+
+.leftFoot{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+   
+}
+
+.rightFoot{
+    margin-left: 40px;
+    padding:20px 60px;
+}
+
+footer h4{
+    font-size: 12px;
+}
+
+footer span{
+    display: block;
+    margin-bottom: 8px;
+    color: #838385;
+    font-size: 16px;
+}
+
+
+
+
+.gplay, .apple{
+    margin: 10px;
+    /* height: 30px; */
+    width: 150px;
+    background-color: #000;
+    font-size: 30px;
+    padding: 3px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ 
+
+
+.experience span{
+    
+    display: inline;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0        ;
+}
+
+.experience{
+    display: flex;
+}
+
+
+aside span{
+    display: inline;
+    margin-right: 10px;
+}
+
+.bi-google-play::before{
+    /* display: block; */
+    font-size: 30px;
+    margin-right: 10px;
+    padding:2px
+}
+.bi-apple::before{
+    /* display: block; */
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.cont-1 img{
+    margin: 0 auto;
+    width: 95vw;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cont-2{
+    /* margin-top: -40px; */
+}
+.cont-2 img{
+    padding: 50px;
+    width: 90vw;
+    cursor: pointer;
+}
